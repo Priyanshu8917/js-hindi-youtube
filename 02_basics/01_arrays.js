@@ -12,7 +12,7 @@ const myArr2 = new Array (1, 2, 3, 4 )
 
 // myArr.push(6)// push is used to add the value
 // myArr.push(7)
-// myArr.pop()// pop means it is used to remove the value of the last array
+ myArr.pop()// pop means it is used to remove the value of the last array
 
 //myArr.unshift(9)// it means it inserts a new elements at the start of the array 
 //myArr.shift()//removes the 1st elements of the array
