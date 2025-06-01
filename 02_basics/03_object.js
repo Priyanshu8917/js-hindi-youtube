@@ -1,7 +1,7 @@
-// singleton //(if i declare literal types then singleton not make or if it make in constructor then singeton is used)
+// singleton //(if i declare literal types then singleton not make or if i make the constructor then singeton is used)
   
 
-//Object.create  // it is called constructor method here singleto is used
+//Object.create  // it is called constructor method here singleton is used
 
  // object literals
 
@@ -26,7 +26,7 @@ const JsUser = {
 
 }
 //console.log(JsUser.email); // it is the one type of object access
-//console.log(JsUser["email"]); // it is the another type of objecta access
+//console.log(JsUser["email"]); // it is the another type of object access
 //console.log(JsUser["full name"]);
 //console.log(JsUser[mySym]);
 
@@ -46,7 +46,7 @@ JsUser.greeting = function() {
     
     }
 JsUser.greetingTwo = function() {
-    console.log(`Hello JS user, ${this.name}`); // it is called string interpolation another thing is if you want references the same objects then you write (this.)
+    console.log(`Hello JS user, ${this.name}`); // it is called string interpolation another thing is if you want to references the same objects then you write (this.)
 }    
 //console.log(JsUser.greeting());
 console.log(JsUser.greeting());
