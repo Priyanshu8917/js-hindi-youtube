@@ -61,7 +61,43 @@ function loginUSerMessage(username = "Sam"){
 
 //console.log(loginUSerMessage("priyanshu"))
 //console.log(loginUSerMessage(""));
-console.log(loginUSerMessage("Priyanshu"));
+//console.log(loginUSerMessage("Priyanshu"));
+
+function calculateCartPrice(val1, val2, ...num1){ //here . means rest operator
+  return num1
+}
+//console.log(calculateCartPrice(200, 400, 500, 2000));
+
+const user ={
+  username: "Priyanshu",
+  price: 200
+}
+// here object will be passed
+function handleObject(anyobject){
+  console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);
+  
+
+}
+// here function is called
+//handleObject(user)
+handleObject({
+  username: "Priyanshu",
+  price: 499
+
+})
+ // here array will be passed
+ const myNewArray = [200, 400, 100, 600]
+ //here i define a function and he accept the array value and return the second value.
+ function returnsecondValue(getArray) {
+  return getArray[2]
+
+ }
+ //console.log(returnsecondValue(myNewArray));
+ // here another type to console.log
+console.log(returnsecondValue([200, 400, 500, 1000]));
+ 
+ 
+
 
 
 
