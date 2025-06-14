@@ -7,8 +7,8 @@ const user = {
     price: 999,
 
     welcomeMessage: function(){
-        //console.log(`${this.username} , Welcome to website`);
-        //console.log(this);
+        console.log(`${this.username} , Welcome to website`);
+        console.log(this);
         
         
     }
@@ -20,7 +20,7 @@ user.username = "Ruma"
 user.price = 1000
 user.welcomeMessage()
 
-//console.log(this);
+console.log(this);
 
 //function chai(){
   //  let username = "priyanshu"
@@ -70,6 +70,7 @@ const addTwo = (num1, num2) => ({username: "Priyanshu"})
    
 console.log(addTwo(3,4));
 
-const myArray = [2, 5, 3, 7, 8]
-myArray.forEach() // here foreach means it performs the specified action for each elements inan array.
+//const myArray = [2, 5, 3, 7, 8]
+//myArray.forEach()
+// here foreach means it performs the specified action for each elements inan array.
 
